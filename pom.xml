@@ -22,9 +22,7 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-
-    <build>
-      <profiles>
+<profiles>
         <profile>
           <id> prof-3 </id>
           <activation>
@@ -33,6 +31,8 @@
 	          </os>
         </activation>
   </profile>
+    <build>
+      
 </profiles>
         <plugins>
             <plugin>
