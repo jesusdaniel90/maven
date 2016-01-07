@@ -25,12 +25,6 @@
 
 <profiles>
   <profile>
-    <id>MyPerfil</id>
-    <activation>
-      <os>
-        <family>windows</family>
-      </os>
-    </activation>
     <build>
         <plugins>
             <plugin>
@@ -49,6 +43,13 @@
             
         </plugins>
     </build>
+    <id>MyPerfil</id>
+    <activation>
+      <os>
+        <family>windows</family>
+      </os>
+    </activation>
+    
     </profile>
   </profiles>
 </project>
